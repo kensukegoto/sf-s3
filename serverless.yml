@@ -1,0 +1,12 @@
+service: sf-s3
+
+provider:
+  name: aws
+  region: ap-northeast-1
+
+plugins:
+  - serverless-finch
+
+custom:
+  client:
+    bucketName: sf-s3-20191104
